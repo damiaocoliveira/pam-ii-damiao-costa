@@ -36,6 +36,28 @@ let cachorros = ["Bug", "Zeus", "Zara"]
 console.log(cachorros[1])
 
 
+let num1 = 2
+const num2 = 3
+var msg = "Olá amigos! Esse é o número:"
+
+function soma () {
+    let resultado  = num1 + num2
+    console.log(msg, resultado)
+}
+// crie uma função -> crie um método -> depois chame o método
+
+soma()
+
+function somaComParametros(valor1, valor2) {
+    console.log("O resultado é:", valor1 + valor2)
+}
+
+somaComParametros(10, 20)
+somaComParametros(11, 22)
+
+
+
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -46,4 +68,4 @@ console.log(cachorros[1])
 
 //ATALHOS
 //cltr + alt + n = executa o codigo
-//cltr + ; = comentar a linha de codigo de uma vez
+//cltr + ; = comentar a linha de codigo de uma vez.
